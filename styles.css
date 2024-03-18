@@ -90,3 +90,56 @@ button:hover {
     cursor: pointer;
     background-color: #3378e7;
 }
+button:active {
+    background-color: #2d6ed6;
+}
+
+.random-info {
+    text-align: center;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.information-container .square {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+.information-container .square:hover {
+    border: 5px dashed #d434e9;
+    cursor: pointer;
+}
+
+.information-container {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.information {
+    width: 200px;
+    text-align: center;
+}
+
+.info-page {
+    height: 550px;
+}

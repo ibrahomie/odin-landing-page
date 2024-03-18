@@ -143,3 +143,27 @@ button:active {
 .info-page {
     height: 550px;
 }
+
+.quote-container {
+    height: 500px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container .quote {
+    width: 950px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-container .sayer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-left: 650px;
+}

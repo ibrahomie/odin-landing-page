@@ -197,3 +197,12 @@ button:active {
 .call-action button {
     border: 3px solid #f9faf8;
 }
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
